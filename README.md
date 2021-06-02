@@ -11,7 +11,3 @@ Open https://github.com/karolisvram/packages-publishing-sample/blob/main/package
 1. Only use published npm packages as dependency.
 2. Always point main entry to bundle e.g. `dist/index.js`.
 3. Keep using TS files as main entry but when bundling, use bundled version i.e. `dist/index.js`.
-
-I believe solution #3 is the best one. It will require an enhanced bundling script that creates bundles for all package dependencies, and swaps out their main entries to the bundle. But it will keep the current set up without any changes.
-
-
