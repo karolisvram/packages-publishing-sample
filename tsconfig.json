@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "declaration": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "outDir": "./lib",
+    "allowJs": true,
+    "target": "es2017",
+
+    "allowSyntheticDefaultImports": true,
+    // Improve compatibility with babel compiled modules
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    // We only use TypeScript for type checking
+    "noEmit": true,
+    // Third party types are sometimes incompatible with each other without
+    // causing problems in our own application code
+    "skipLibCheck": true,
+
+    "sourceMap": true,
+    "removeComments": true,
+
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@cashew/b",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "source": "src/index.ts",
+  "maindist": "dist/index.js",
+  "moduledist": "dist/index.esm.js",
+  "typesdist": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@cashew/a-js": "workspace:*",
+    "@cashew/a-ts": "workspace:*",
+    "@types/node": "^10.3.2",
+    "microbundle": "^0.13.1",
+    "typescript": "^4.3.2"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "bundle": "microbundle build -i src/index.ts -f es,cjs --compress true -o dist/index.js"
+  }
+}
