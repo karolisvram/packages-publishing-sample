@@ -2,7 +2,7 @@
   "name": "@cashew/a-js",
   "version": "1.0.0",
   "source": "src/index.ts",
-  "main": "./dist/index.js",
+  "main": "./src/index.ts",
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
   "typings": "dist/index.d.ts",

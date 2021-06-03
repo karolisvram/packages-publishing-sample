@@ -4,10 +4,10 @@
     "moduleResolution": "node",
     "declaration": true,
     "importHelpers": true,
-    "module": "commonjs",
+    "module": "ESNext",
     "outDir": "./lib",
     "allowJs": true,
-    "target": "es2017",
+    "target": "ESNext",
 
     "allowSyntheticDefaultImports": true,
     // Improve compatibility with babel compiled modules

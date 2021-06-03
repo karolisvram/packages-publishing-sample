@@ -1,0 +1,1 @@
+{"version":3,"file":"index.module.js","sources":["../src/index.ts"],"sourcesContent":["export const helloWorld: string = \"hello world from package a!\";\n"],"names":["helloWorld"],"mappings":"AAAaA,IAAAA,EAAqB"}
